@@ -4486,3 +4486,15 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+#map{
+  margin: auto;
+  margin-top: 30px;
+  width: fit-content;
+}
+
+@media (max-width:700px) {
+  #map{
+  display: none;
+  }
+}
